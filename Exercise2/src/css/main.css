@@ -1,0 +1,132 @@
+/**
+ Utility rules
+*/
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+/**
+  Generic rules
+*/
+body {
+    background-color: #f1f0f0;
+    font-family: overpass;
+    font-size: 16px;
+    color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #004080;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+/**
+ Layout rules
+*/
+.container {
+    padding: 24px 0;
+}
+/**
+  Sidebar specific rules
+*/
+.sidebar {
+    background-color: #ffffff;
+    /* max-width: 247px; */
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.sidebar__header-text--primary {
+    margin: 0;
+    line-height: 42px;
+}
+
+.sidebar__badge {
+    margin: 12px 0 12px 12px;
+}
+
+.sidebar__badge-link {
+    text-decoration: none;
+}
+
+.sidebar__subtitle {
+    margin: 6px 0;
+}
+
+.sidebar__item-list {
+    overflow: hidden;
+}
+.sidebar__item-title {
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+.sidebar__item-data {
+    margin: 0 0 12px 0;
+}
+
+.sidebar__item-data-icon {
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.sidebar__item-data--success {
+    color: #3f8743;
+}
+
+.sidebar__item-data--warning {
+    color: #eeac34;
+}
+
+.sidebar__item-data--error {
+    color: #c7232d;
+}
+
+
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    .sidebar {
+        padding: 24px;
+        max-width: 474px;
+    }
+    .sidebar__item-title {
+		float: left;
+		margin: 0 0 24px 0;
+		padding-right: 0;
+		width: 80%;
+	}
+	.sidebar__item-data {
+		float: right;
+		margin: 0 0 24px 0;
+		width: 20%;
+	}
+}
+
+
+
