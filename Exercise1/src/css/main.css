@@ -1,0 +1,43 @@
+/*-----------------------------------------------------------------------*
+ Variables
+ Constants value e.g. font-size, color vale etc. should be declared here. 
+*/
+
+/**
+  Layout
+*/
+body {
+    background-image: radial-gradient(#8b8d8f 10%, #f6f6f6 0); /*Identical color stops make sharp borders.*/
+    background-position: 0 0;
+    background-size: 18px 18px;
+}
+.box {
+    margin-top: 200px; /* Offset the box 200px from the top of the viewport. */
+    border: none;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.box .box__header {
+    padding: 10px;
+}
+
+.box .box__title {
+    font-size: 80%;
+    overflow: hidden;
+    line-height: 18px; /*This isn't a flexiable method to define a fixed height; would rather use flex or grid. */
+}
+
+.box .box__header .header__badge {
+    background-color: #6f0000;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.box .box__body {
+    border-right: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    border-left: 1px solid #bebebe;
+    min-height: 109px;
+}
