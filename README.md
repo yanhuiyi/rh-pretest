@@ -47,6 +47,9 @@
   - Another one is when I worked in TheKnot, where there are several talent designers, I participated in desing review flow and gave feedback to designers and tweaked the page in a quick way. I proposed to develop a HTML Email generator tools to free the developers repetitive work, which is taken by managers and saved a great deal of effor for the team.
 
 # Practical Exercises
+Web pages are tested on following browers,
+- Google Chrome Version 78.0.3904.108 (Official Build) (64-bit)
+- Firefox Browser 71.0 (64-bit)
 
 ## Verify locally
 1. Clone repo in your box
