@@ -23,6 +23,7 @@
   6. Verfication tools such as BrowserStack helps cross brower testing
 
 - Have you used any design systems, if so which ones?
+  
   [Alta](https://www.oracle.com/webfolder/ux/middleware/alta/index.html) is the one I used when worked for Oracle. We used another new design theme to rewrite UI of the project later on. I know some practice of [Material Deign](https://material.io/develop/web/).
   
 - What are some pros and cons to working with a design system?
@@ -42,7 +43,8 @@
   4. A complished design in mutliple devices screen size
   
 - In your career to-date what are you most proud of?
-  1. When I worked for RealNetworks. I worked with desinger closely, and give an advice for designer to design a more dynamic look and feel for real.com; Worked with designers by providing prototypes. Finally the proposal was taken. The new website gained more page view. Another one is when I worked in TheKnot, where there are several talent designers, I participated in desing review flow and gave feedback to designers and tweaked the page in a quick way. I proposed to develop a HTML Email generator tools to free the developers repetitive work, which is taken by managers and saved a great deal of effor for the team.
+  - When I worked for RealNetworks. I worked with desinger closely, and give an advice for designer to design a more dynamic look and feel for real.com; Worked with designers by providing prototypes. Finally the proposal was taken. The new website gained more page view. 
+  - Another one is when I worked in TheKnot, where there are several talent designers, I participated in desing review flow and gave feedback to designers and tweaked the page in a quick way. I proposed to develop a HTML Email generator tools to free the developers repetitive work, which is taken by managers and saved a great deal of effor for the team.
 
 # Practical Exercises
 
