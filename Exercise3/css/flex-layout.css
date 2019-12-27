@@ -5,6 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -17,7 +19,7 @@ main {
        flex-wrap: wrap;
     }
     header, footer {
-        flex: 0 0 100%;
+        flex: 0 0 100%; /* With flex-wrap: wrap, 100% makes the box grow to next line. */
     }
     nav, main {
         height: 100px;
