@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Exercise 2 - Vanilla CSS</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body> 
       <div class="container">
-        <section class="sidebar">
+        <aside class="sidebar" aria-labelledby="InventoryHeader" role="complementary">
             <div class="sidebar__heading">
                 <div class="sidebar__title clearfix">
-                    <h1 class="sidebar__header-text--primary pull-left">Inventory</h1>
-                    <span class="sidebar__badge pull-right"><a href="#" class="sidebar__badge-link">See details</a></span>
+                    <h1 id="InventoryHeader" class="sidebar__header-text--primary pull-left">Inventory</h1>
+                    <span class="sidebar__badge pull-right"><a href="#" class="sidebar__link">See details</a></span>
                 </div>
                 <div class="sidebar__subtitle">
-                    <h3 class="sidebar__header-text--secondary">Sub-title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipi sicing elit.</p>
+                    <h2 class="sidebar__header-text--secondary">Sub-title</h2>
+                    <p class="sidebar__header-text--description">Lorem ipsum dolor sit amet consectetur adipi sicing elit.</p>
                 </div>
             </div>
             <div class="sidebar__body">
                 <dl class="sidebar__item-list">
                     <dt class="sidebar__item-title">1 Cluster</dt>
-                    <dd class="sidebar__item-data"><i class="sidebar__item-data-icon sidebar__item-data--success"></i>Healthy</dd>
+                    <dd class="sidebar__item-data"><i alt="Success" class="sidebar__item-data-icon sidebar__item-data--success fa fa-check-circle"></i>Healthy</dd>
                     <dt class="sidebar__item-title">4 Nodes</dt>
-                    <dd class="sidebar__item-data"><i class="sidebar__item-data-icon sidebar__item-data--success"></i>Healthy</dd>
+                    <dd class="sidebar__item-data"><i alt="Success" class="sidebar__item-data-icon sidebar__item-data--success fa fa-check-circle"></i>Healthy</dd>
                     <dt class="sidebar__item-title">370 Pods</dt>
-                    <dd class="sidebar__item-data"><i class="sidebar__item-data-icon sidebar__item-data--warnings"></i>2 Warnings</dd>
+                    <dd class="sidebar__item-data"><i alt="Warning" class="sidebar__item-data-icon sidebar__item-data--warning fa fa-exclamation-triangle"></i><a href="#" class="sidebar__link">2 Warnings</a></dd>
                     <dt class="sidebar__item-title">9 Virtual Machines</dt>
-                    <dd class="sidebar__item-data"><i class="sidebar__item-data-icon sidebar__item-data--error"></i>2 Errors</dd>
+                    <dd class="sidebar__item-data"><i alt="Error" class="sidebar__item-data-icon sidebar__item-data--error fa fa-exclamation-circle"></i><a href="#" class="sidebar__link">2 Errors</a></dd>
                 </dl>
             </div>
-        </section>
+        </aside>
       </div>     
   </body>
 </html>
