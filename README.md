@@ -26,12 +26,12 @@
   [Alta](https://www.oracle.com/webfolder/ux/middleware/alta/index.html) is the one I used when worked for Oracle. We used another new design theme to rewrite UI of the project later on. I know some practice of [Material Deign](https://material.io/develop/web/).
   
 - What are some pros and cons to working with a design system?
-  ** Pros **
+  ### Pros ###
   1. Consistency
   2. Quick to start work for non-designers
   3. New design can be uilt on top it
   4. Reusable
-  ** Cons **
+  ### Cons ###
   1. It limits new ideas to take sometimes
   2. Changes can become difficult along time
   
