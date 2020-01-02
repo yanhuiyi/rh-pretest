@@ -1,7 +1,7 @@
 # Open Ended Questions
 
 - What are some best practices for ensuring proper accessibility support?
-  In the technical level, follow technical standards such as,
+  In the technical level, I would like to follow technical standards such as,
   1. Provide semantic document tags and structure that helps keyboard navigation or screen reader
   2. Make sure link text meaningful
   3. Provide headers, footers or caption for table structure
@@ -43,8 +43,8 @@
   4. A completed design in multiple devices screen size
   
 - In your career to-date what are you most proud of?
-  - When I worked for RealNetworks. I worked with designers closely, and give an advice for designer to design a more dynamic look and feel for real.com; Worked with designers by providing prototypes. Finally the proposal was taken. The new website gained more page view. 
-  - Another one is when I worked in TheKnot, where there are several talent designers, I participated in design review flow and gave feedback to designers and tweaked the page in a quick way. I proposed to develop a HTML Email generator tools to free the developers repetitive work, which is taken by managers and saved a great deal of effort for the team.
+  - When I worked for RealNetworks, I worked with designers closely, and proposed to create a more dynamic look and feel deesign for real.com; Worked with designers by providing prototypes. Finally the proposal was taken. The new website gained more page view. 
+  - Another one is when I worked in TheKnot, where there were several talent designers, I participated in design review flow and gave feedback to designers and tweaked the page in a quick way. I proposed to develop a HTML Email generator tool to free the developers from repetitive work, which was taken by managers and saved a great deal of time for the team.
 
 # Practical Exercises
 Web pages are tested on following browsers,
